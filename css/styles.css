@@ -7992,6 +7992,10 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
+.text-left {
+  text-align: left !important;
+} 
+
 .text-center {
   text-align: center !important;
 }
@@ -8096,6 +8100,12 @@ textarea.form-control-lg {
 }
 
 .text-muted {
+  --bs-text-opacity: 1;
+  color: #000 !important;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+}
+.text-muted-bold {
   --bs-text-opacity: 1;
   color: #000 !important;
   font-family: 'Anton', sans-serif;
@@ -10854,9 +10864,9 @@ p {
   background-color: #87CEEB;
 }
 
-.page-section-g {
+.page-section-y {
   padding: 6rem 0;
-  background-color: #00FF00;
+  background-color: #ced4da;
 }
 
 
@@ -10870,6 +10880,7 @@ p {
   font-weight: bold, 400;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+  text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
 
 @media (min-width: 768px) {
